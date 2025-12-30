@@ -77,6 +77,9 @@ Key results remain qualitatively consistent across alternative specifications:
 While magnitudes vary, the central patterns—non-zero sensitivity, lag effects, and time variation—persist.
 </details>
 
+## Visualization
+![Baseline: Δ10Y yield vs S&P 500 daily return](reports/figures/baseline_scatter.png)
+
 ## How to Reproduce
 This repository is designed to be fully reproducible.
 
