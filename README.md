@@ -28,3 +28,73 @@ Are these relationships stable across market environments, or do they vary acros
 - Missing observations are handled consistently to avoid look-ahead bias
 - Rate changes are computed as first differences unless otherwise specified
 #### Note: All data used in this project are sourced from publicly available and widely used financial databases.
+## Key Findings
+
+- Equity returns exhibit **non-zero sensitivity** to interest rate changes, with effects varying by rate measure.
+- Market responses are **not purely contemporaneous**; lagged rate changes contribute meaningful explanatory power.
+- Rate–equity sensitivities are **time-varying**, strengthening or weakening across different macro environments.
+- Decomposing rates into **nominal, real, and term structure components** reveals materially different equity responses.
+
+---
+
+## Detailed Results
+
+This section provides extended empirical results and interpretation for readers interested in the full analysis.
+
+### Baseline Relationship Between Rates and Equity Returns
+
+Across baseline specifications, equity returns exhibit a **statistically meaningful relationship** with changes in interest rates.
+
+- Changes in U.S. Treasury yields are associated with systematic movements in equity returns.
+- The sign and magnitude of sensitivity depend on the specific rate measure used.
+- Short- to medium-term yields tend to show stronger contemporaneous associations than longer maturities.
+
+These results suggest that equity markets respond not only to the level of rates, but also to **unexpected rate movements**.
+
+---
+
+### Lag Effects and Market Adjustment
+
+Including lagged rate changes shows that equity market responses are **not purely instantaneous**.
+
+- Lagged rate changes add explanatory power beyond contemporaneous effects.
+- The strongest responses typically occur within short horizons.
+- Lag structures help distinguish immediate repricing from delayed adjustment dynamics.
+
+This highlights the importance of modeling **temporal dynamics**, rather than relying solely on same-day correlations.
+
+---
+
+### Time-Varying Sensitivity (Rolling Analysis)
+
+Rolling-window regressions indicate that rate–equity sensitivities are **not stable over time**.
+
+- Estimated betas vary substantially across different market periods.
+- Periods of elevated macro uncertainty often coincide with stronger rate sensitivity.
+- In calmer environments, estimated relationships weaken or temporarily disappear.
+
+These findings caution against assuming constant parameters in macro–equity relationships.
+
+---
+
+### Comparison Across Rate Measures
+
+Different interest rate measures produce **materially different equity responses**.
+
+- Nominal yields, real yields, and term structure measures capture distinct channels.
+- Real yields tend to show stronger associations during inflation-sensitive periods.
+- Term structure variables provide complementary information beyond level changes alone.
+
+This underscores the importance of **rate decomposition**, rather than treating interest rates as a single variable.
+
+---
+
+### Robustness Checks
+
+Key results remain qualitatively consistent across alternative specifications:
+
+- Different return constructions
+- Alternative lag lengths
+- Subsample splits
+
+While magnitudes vary, the central patterns—non-zero sensitivity, lag effects, and time variation—persist.
