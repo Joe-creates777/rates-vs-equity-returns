@@ -37,9 +37,10 @@ Are these relationships stable across market environments, or do they vary acros
 
 ---
 
-## Detailed Results
+<details>
+<summary><strong>Detailed Results and Interpretation</strong></summary>
 
-This section provides extended empirical results and interpretation for readers interested in the full analysis.
+<br>
 
 ### Baseline Relationship Between Rates and Equity Returns
 
@@ -98,3 +99,5 @@ Key results remain qualitatively consistent across alternative specifications:
 - Subsample splits
 
 While magnitudes vary, the central patterns—non-zero sensitivity, lag effects, and time variation—persist.
+
+</details>
