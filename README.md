@@ -34,9 +34,6 @@ Are these relationships stable across market environments, or do they vary acros
 - Market responses are **not purely contemporaneous**; lagged rate changes contribute meaningful explanatory power.
 - Rate–equity sensitivities are **time-varying**, strengthening or weakening across different macro environments.
 - Decomposing rates into **nominal, real, and term structure components** reveals materially different equity responses.
-
----
-
 <details>
 <summary><strong>Detailed Results and Interpretation</strong></summary>
 
@@ -52,8 +49,6 @@ Across baseline specifications, equity returns exhibit a **statistically meaning
 
 These results suggest that equity markets respond not only to the level of rates, but also to **unexpected rate movements**.
 
----
-
 ### Lag Effects and Market Adjustment
 
 Including lagged rate changes shows that equity market responses are **not purely instantaneous**.
@@ -63,8 +58,6 @@ Including lagged rate changes shows that equity market responses are **not purel
 - Lag structures help distinguish immediate repricing from delayed adjustment dynamics.
 
 This highlights the importance of modeling **temporal dynamics**, rather than relying solely on same-day correlations.
-
----
 
 ### Time-Varying Sensitivity (Rolling Analysis)
 
@@ -76,8 +69,6 @@ Rolling-window regressions indicate that rate–equity sensitivities are **not s
 
 These findings caution against assuming constant parameters in macro–equity relationships.
 
----
-
 ### Comparison Across Rate Measures
 
 Different interest rate measures produce **materially different equity responses**.
@@ -87,8 +78,6 @@ Different interest rate measures produce **materially different equity responses
 - Term structure variables provide complementary information beyond level changes alone.
 
 This underscores the importance of **rate decomposition**, rather than treating interest rates as a single variable.
-
----
 
 ### Robustness Checks
 
