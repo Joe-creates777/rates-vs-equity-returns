@@ -28,6 +28,13 @@ Are these relationships stable across market environments, or do they vary acros
 - Missing observations are handled consistently to avoid look-ahead bias
 - Rate changes are computed as first differences unless otherwise specified
 #### Note: All data used in this project are sourced from publicly available and widely used financial databases.
+## Methodology
+The analysis follows a research-style empirical workflow:
+- Equity returns are regressed on changes in interest rate measures to quantify baseline sensitivity.
+- Lagged rate changes are included to capture delayed market responses.
+- Rolling-window regressions are used to assess the stability of estimated relationships over time.
+- Alternative rate measures (nominal yields, real yields, and term structure variables) are compared to evaluate different transmission channels.
+All specifications are estimated using consistent data alignment and robust preprocessing to avoid look-ahead bias.
 ## Key Findings
 - Equity returns exhibit **non-zero sensitivity** to interest rate changes, with effects varying by rate measure.
 - Market responses are **not purely contemporaneous**; lagged rate changes contribute meaningful explanatory power.
@@ -69,3 +76,20 @@ Key results remain qualitatively consistent across alternative specifications:
 - Subsample splits
 While magnitudes vary, the central patterns—non-zero sensitivity, lag effects, and time variation—persist.
 </details>
+
+## How to Reproduce
+This repository is designed to be fully reproducible.
+
+### Environment Setup
+```bash
+# Clone the repository
+git clone https://github.com/Joe-creates777/rates-vs-equity-returns.git
+cd rates-vs-equity-returns
+
+# Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
