@@ -100,6 +100,5 @@ python scripts/02_build_dataset.py
 python scripts/03_run_analysis.py
 python scripts/04_make_report.py
 ```
-#### Outputs
-The pipeline writes figures and tables to `reports/figures/` and `reports/tables/`.
+**Outputs:** The pipeline writes figures and tables to `reports/figures/` and `reports/tables/`.
 Most generated outputs are intentionally excluded from version control to keep the repository lightweight; re-run the scripts to reproduce them locally.
