@@ -5,6 +5,7 @@ This project investigates the empirical relationship between U.S. interest rate 
 - differences across rate measures (nominal, real, term structure).
 - the stability of these relationships over time 
 Rather than relying on market narratives, this project provides a fully reproducible, data-driven framework to quantify how interest rate movements are associated with equity returns. This repository is designed as a research-style empirical pipeline, emphasizing transparency, robustness, and interpretability.
+
 ## Research Questions
 The analysis is centered around three core questions:
 ### Timing effects
@@ -13,6 +14,7 @@ Do equity returns react contemporaneously to interest rate changes, or with meas
 How do different rate indicators—nominal Treasury yields, real yields, and term spreads—compare in explaining equity returns?
 ##3 Stability over time
 Are these relationships stable across market environments, or do they vary across different macroeconomic regimes?
+
 ## Data Description
 ### Equity Data
 - Broad equity market returns (e.g., major U.S. equity indices or ETFs)
@@ -28,6 +30,7 @@ Are these relationships stable across market environments, or do they vary acros
 - Missing observations are handled consistently to avoid look-ahead bias
 - Rate changes are computed as first differences unless otherwise specified
 #### Note: All data used in this project are sourced from publicly available and widely used financial databases.
+
 ## Methodology
 The analysis follows a research-style empirical workflow:
 - Equity returns are regressed on changes in interest rate measures to quantify baseline sensitivity.
@@ -35,6 +38,7 @@ The analysis follows a research-style empirical workflow:
 - Rolling-window regressions are used to assess the stability of estimated relationships over time.
 - Alternative rate measures (nominal yields, real yields, and term structure variables) are compared to evaluate different transmission channels.
 All specifications are estimated using consistent data alignment and robust preprocessing to avoid look-ahead bias.
+
 ## Key Findings
 - Equity returns exhibit **non-zero sensitivity** to interest rate changes, with effects varying by rate measure.
 - Market responses are **not purely contemporaneous**; lagged rate changes contribute meaningful explanatory power.
@@ -87,6 +91,7 @@ A fitted OLS line is included to highlight the average directional effect.
 To examine whether interest rate movements affect market risk rather than just average returns, we also analyze the relationship between rate changes and rolling equity volatility.
 ![Volatility scatter](reports/figures/volatility_scatter.png)
 **Key takeaway:** Interest rate changes are more strongly associated with variations in market volatility than with mean returns, suggesting that rates primarily transmit to equities through a **risk/uncertainty channel** rather than a direct return channel.
+
 ## How to Reproduce
 This repository is designed to be fully reproducible.
 
