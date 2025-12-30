@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Processed datasets (generated)
+data/processed/*.csv
+data/processed/*.parquet
+
+# Generated regression outputs
+reports/tables/*.txt
