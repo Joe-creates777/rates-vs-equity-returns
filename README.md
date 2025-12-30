@@ -78,8 +78,15 @@ While magnitudes vary, the central patterns—non-zero sensitivity, lag effects,
 </details>
 
 ## Visualization
+### Baseline relationship: equity returns vs interest rate changes
+The scatter plot below shows the relationship between daily equity returns and changes in interest rates.  
+A fitted OLS line is included to highlight the average directional effect.
 ![Baseline: Δ10Y yield vs S&P 500 daily return](reports/figures/baseline_scatter.png)
-
+**Key takeaway:** Equity returns exhibit a weak but systematic sensitivity to interest rate changes, consistent with standard asset pricing intuition that higher rates tend to pressure equity valuations.
+### Risk channel: interest rate changes and market volatility
+To examine whether interest rate movements affect market risk rather than just average returns, we also analyze the relationship between rate changes and rolling equity volatility.
+![Volatility scatter](reports/figures/volatility_scatter.png)
+**Key takeaway:** Interest rate changes are more strongly associated with variations in market volatility than with mean returns, suggesting that rates primarily transmit to equities through a **risk/uncertainty channel** rather than a direct return channel.
 ## How to Reproduce
 This repository is designed to be fully reproducible.
 
