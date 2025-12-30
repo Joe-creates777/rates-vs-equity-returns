@@ -38,7 +38,7 @@ Are these relationships stable across market environments, or do they vary acros
 <summary><strong>Detailed Results and Interpretation</strong></summary>
 
 <br>
-
+-
 ### Baseline Relationship Between Rates and Equity Returns
 
 Across baseline specifications, equity returns exhibit a **statistically meaningful relationship** with changes in interest rates.
