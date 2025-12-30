@@ -93,3 +93,13 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 ```
+### Run the Analysis
+```bash
+python scripts/01_fetch_data.py
+python scripts/02_build_dataset.py
+python scripts/03_run_analysis.py
+python scripts/04_make_report.py
+```
+#### Outputs
+The pipeline writes figures and tables to `reports/figures/` and `reports/tables/`.
+Most generated outputs are intentionally excluded from version control to keep the repository lightweight; re-run the scripts to reproduce them locally.
